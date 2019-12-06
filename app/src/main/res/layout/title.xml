@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    >
+
+    <ImageButton
+        android:layout_margin="10dp"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="0.14"
+        android:layout_gravity="top"
+        android:color="@android:color/transparent"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_arrow_back_black_24dp"
+        android:id="@+id/button_back"/>
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:layout_gravity="top"
+        android:color="@android:color/transparent"
+        android:gravity="center"
+        android:layout_marginRight="30dp"
+        android:text="TableLayout+ViewPager Test"
+        android:textSize="20sp" />
+
+</LinearLayout>
